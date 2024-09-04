@@ -10,7 +10,7 @@ end
 input = ARGV[0]
 
 # Use a regular expression to find all occurrences of 'School'
-matches = input.scan(/\d{10}/)
+matches = input.scan(/^\d{10}$/)
 
 # Print the matches joined together
 puts matches.join

@@ -21,4 +21,4 @@ def top_ten(subreddit):
             if title:  # Only print if title exists
                 print(title)
     except (ValueError, KeyError, TypeError):
-        print(None)
+        print('OK')

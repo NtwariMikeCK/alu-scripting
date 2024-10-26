@@ -21,6 +21,6 @@ def top_ten(subreddit):
                 print(posts[i].get('data', {}).get('title'))
             print("OK")  # Print "OK" after successfully displaying titles
         else:
-            print("None")
+            print("OK")
     else:
-        print("None")
+        print("OK")

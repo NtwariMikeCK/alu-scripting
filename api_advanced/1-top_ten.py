@@ -20,5 +20,6 @@ def top_ten(subreddit):
                 .get('data')
                 .get('title')
             )
-    else:
-        print("OK")
+else:
+        # If the subreddit is invalid, print None
+        print("None")

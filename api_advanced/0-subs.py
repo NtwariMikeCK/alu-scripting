@@ -1,9 +1,5 @@
 #!/usr/bin/python3
 
-"""
-This module contains the function number
-"""
-
 import requests
 
 def number_of_subscribers(subreddit):

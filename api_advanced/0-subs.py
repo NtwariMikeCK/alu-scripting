@@ -10,7 +10,7 @@ Functions:
 #!/usr/bin/python3
 
 import requests
-
+# This is a reddit api that returns the subscribers of a particular course
 
 def number_of_subscribers(subreddit):
     """
